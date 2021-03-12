@@ -36,6 +36,8 @@ def extract_bits():
 
 
 def hide_cat():
+    # https://itnext.io/steganography-101-lsb-introduction-with-python-4c4803e08041?gi=fc17ed685c7
+
     # se tranforma imaginea cu pisica intr-un sir de biti
     extracted_bits = extract_bits()
     print(f"{INFO}Se ascunde pisica")
@@ -116,6 +118,8 @@ def convert_bits_to_img(binary_string):
 
 
 def reveal_cat():
+    # https://itnext.io/steganography-101-lsb-introduction-with-python-4c4803e08041?gi=fc17ed685c7
+
     print(f"{INFO}Pisica se pregateste sa se arate")
     extracted_bin = ""
     with Image.open(DOG_SECRET) as img:

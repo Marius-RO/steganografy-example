@@ -1,10 +1,10 @@
 from PIL import Image, ImageOps
 import numpy as np
 
-SWEET_DOG = "sweet_dog.bmp"
-DOG_SECRET = "sweet_dog_with_secret_little_cat.bmp"
-SECRET_CAT = "secret_little_cat.bmp"
-REVEALED_CAT = "revealed_little_cat.bmp"
+SWEET_DOG = "input/sweet_dog.bmp"
+DOG_SECRET = "output/sweet_dog_with_secret_little_cat.bmp"
+SECRET_CAT = "input/secret_little_cat.bmp"
+REVEALED_CAT = "output/revealed_little_cat.bmp"
 INFO = "[INFO] "
 
 
@@ -161,7 +161,7 @@ def main():
 
     hide_cat()
 
-    # reveal_cat()
+    #reveal_cat()
 
 
 if __name__ == '__main__':
